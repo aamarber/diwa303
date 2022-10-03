@@ -1,0 +1,10 @@
+/*Part 1 solution option 1*/
+.mainContent{
+    /* columns: 3; */
+}
+
+/*Part 1 solution option 2*/
+.column{
+    width: 33.33%;
+    float: left;
+}
