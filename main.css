@@ -1,10 +1,19 @@
-/*Part 1 solution option 1*/
+html{
+    background-image: url('polygon-scatter-haikei.svg');
+    color: white;
+    font-family:Arial, Helvetica, sans-serif
+}
+
 .mainContent{
+    text-align: justify;
+
+    /*Part 1 solution option 1*/
     /* columns: 3; */
 }
 
 /*Part 1 solution option 2*/
 .column{
-    width: 33.33%;
+    width: 30%;
+    margin-right: 3%;    
     float: left;
 }
