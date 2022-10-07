@@ -1,34 +1,70 @@
 *{
     --image-height: 7em;
+    --default-font-size: 16px;
+    --default-font-family: Arial, Helvetica, sans-serif;
+
+    /* Part 2 c */
+    font-family: 
 }
 
 html{
+    /*Part 1 */
     background-image: url('blurry-gradient-haikei.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    
+
     color: white;
-    font-family:Arial, Helvetica, sans-serif
+    font-size: 16px;
 }
 
-.mainContent{
-    text-align: justify;
-
-    /*Part 1 solution option 1*/
-    /* columns: 3; */
-}
-
-/*Part 1 solution option 2*/
+/*Part 2 solution option 1*/
 .column{
     width: 30%;
     margin-right: 3%;
     float: left;
 }
 
-.column article > img{
-    /* Part 2.a */
-    width: 100%;
-    /* Part 2.b */
+.mainContent{
+    /*Part 2 solution option 2*/
+    /* columns: 3; */
+
+    /*Part2.b*/
+    text-align: justify;
+    /*Part 2.c*/
+    font-family: var(--default-font-family);
+    /*Part 2.d*/
+    font-size: var(--default-font-size);
+}
+
+/* Part 2.a */
+.mainContent h1, 
+.mainContent h2,
+.mainContent h3,
+.mainContent h4{
+    text-align: center;
+}
+
+.column article > img,
+.column article > picture,
+.column article > picture > img,
+.column article > video{
+    /* Part 3.a */
+    /*Part 5.a*/
+    max-width: 100%;
+    
+    /* Part 3.c */
+    /*Part 5.b*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column article > img,
+.column article > picture,
+.column article > picture > img
+{
+    /* Part 3.b */
     object-fit: fill;
     height: var(--image-height);
-    
 }
