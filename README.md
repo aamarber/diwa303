@@ -3,7 +3,7 @@ Visit the result in:
 https://aamarber.github.io/diwa303/main.html
 
 Se nos pide lo siguiente:
-    1. Dar un fondo al documento. Tener en cuenta la usabilidad (sobre todo legibilidad) del contenido tras el fondo.
+1. Dar un fondo al documento. Tener en cuenta la usabilidad (sobre todo legibilidad) del contenido tras el fondo.
     2. Convertir los artículos en 3 columnas, ya que se quiere leer como un periódico a tres columnas
         a) Poner los títulos del contenido centrados
         b) Poner el texto de la columna justificado
